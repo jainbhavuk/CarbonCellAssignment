@@ -71,6 +71,7 @@ export const AppLayout = () => {
         options={["Wallet", "Crypto Prices"].map((option) => option)}
         renderInput={(params) => (
           <TextField
+            placeholder="Search"
             {...params}
             InputProps={{
               ...params.InputProps,
